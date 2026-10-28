@@ -9,7 +9,6 @@
   --burgundy: #8d3144;
   --line: rgba(23, 33, 31, 0.14);
   --line-light: rgba(244, 239, 230, 0.18);
-  --serif: "Fraunces", "Iowan Old Style", Palatino, Georgia, serif;
   --sans: "Outfit", "Segoe UI", sans-serif;
   --shadow: 0 24px 60px rgba(16, 33, 31, 0.18);
   --radius: 22px;
@@ -29,7 +28,7 @@ body {
 }
 img { max-width: 100%; display: block; }
 a { color: inherit; }
-h1, h2, h3 { font-family: var(--serif); font-weight: 560; letter-spacing: -0.03em; line-height: 1.08; }
+h1, h2, h3 { font-family: var(--sans); font-weight: 500; letter-spacing: -0.03em; line-height: 1.08; }
 h1 { font-size: clamp(2.7rem, 6vw, 5.1rem); margin: 0.2em 0 0.35em; }
 h2 { font-size: clamp(2rem, 4vw, 3.2rem); margin: 0; }
 h3 { font-size: 1.55rem; margin: 0.2em 0 0.45em; }
@@ -209,7 +208,7 @@ p { margin: 0 0 0.9em; }
 }
 .prose a { color: var(--teal); }
 .drop::first-letter {
-  font-family: var(--serif);
+  font-family: var(--sans);
   float: left;
   font-size: 3.4rem;
   line-height: 0.8;
